@@ -1,5 +1,4 @@
 
-your_api_key_here=('be0414b8-b381-c92a-2643-65c67cb8f3ab:fx')
 
 import deepl
 import wave
