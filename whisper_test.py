@@ -20,5 +20,5 @@ with wave.open(audio_file, 'rb') as wave_file:
     # print(audio_data.decode('utf-8'))
     
 model = whisper.load_model("base")
-result = model.transcribe(audio_file)
+result = model.transcribe(audio_file,fp16= False)
 print(result["text"])
